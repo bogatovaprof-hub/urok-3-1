@@ -1,0 +1,31 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies, logs, and temporary files
+node_modules/
+*.log
+tmp/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+*.jks
+*.keystore
+.npmrc
+.netrc
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+credentials*.json
+service-account*.json
+secrets/
